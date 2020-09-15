@@ -8,7 +8,7 @@ $num = $rst_usr->rowCount();
 
 if($num>0)
 {
-	//VERIFICAR SI EL USUARIO ESTÁ ACTIVO
+	//VERIFICAR SI EL USUARIO ESTÁ ACTIVO O NO
 	//if($fila['usr_estado']=='0'){header("Location:index.php?error=1");exit();}
 	//INICIO SESION
 	session_start();
